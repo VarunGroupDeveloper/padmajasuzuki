@@ -1855,6 +1855,20 @@ button.ltr {
     margin-bottom: 10px;
     color: var(--title-color);
 }
+.custom-modal .modal-content-box {
+    position: relative;
+    z-index: 9999 !important;
+}
+
+.custom-modal .close-modal {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 26px;
+    cursor: pointer;
+    z-index: 99999 !important;
+    pointer-events: auto !important;
+}
 
 
 

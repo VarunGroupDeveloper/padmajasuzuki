@@ -21,42 +21,40 @@
     <script src="<?php echo base_url()?>assets/js/custom.js"></script>
     <script id="chat360__whatsapp_script" src="https://app.chat360.io/widget/chatbox/common_scripts/whatsapp-script.js?number=918886617015&message=&label=&web-script=1" async></script>
     <script>
+    document.addEventListener("DOMContentLoaded", function () {
 
-        // OPEN Test Ride
-        document.getElementById("openTestRide").addEventListener("click", function(e){
+        const testModal    = document.getElementById("testRideModal");
+        const serviceModal = document.getElementById("bookserviceModal");
+
+        // OPEN buttons
+        document.getElementById("openTestRide")?.addEventListener("click", function(e){
             e.preventDefault();
-            document.getElementById("testRideModal").style.display = "flex";
+            testModal.style.display = "flex";
         });
 
-        // OPEN Book Service
-        document.getElementById("openBookService").addEventListener("click", function(e){
+        document.getElementById("openBookService")?.addEventListener("click", function(e){
             e.preventDefault();
-            document.getElementById("bookserviceModal").style.display = "flex";
+            serviceModal.style.display = "flex";
         });
 
-        // CLOSE Test Ride
-        document.querySelector(".close-test").addEventListener("click", function(){
-            document.getElementById("testRideModal").style.display = "none";
-        });
-
-        // CLOSE Book Service
-        document.querySelector(".close-service").addEventListener("click", function(){
-            document.getElementById("bookserviceModal").style.display = "none";
+        // CLOSE buttons (WORKING FIX)
+        document.querySelectorAll(".close-modal").forEach(btn => {
+            btn.addEventListener("click", function(){
+                // Close the modal container (parent)
+                this.closest(".custom-modal").style.display = "none";
+            });
         });
 
         // CLOSE on outside click
         window.addEventListener("click", function(e){
-
-            if(e.target === document.getElementById("testRideModal")){
-                document.getElementById("testRideModal").style.display = "none";
-            }
-
-            if(e.target === document.getElementById("bookserviceModal")){
-                document.getElementById("bookserviceModal").style.display = "none";
-            }
-
+            if (e.target === testModal) testModal.style.display = "none";
+            if (e.target === serviceModal) serviceModal.style.display = "none";
         });
+
+    });
     </script>
+
+
     <script>
         $(document).ready(function () {
 
