@@ -22,34 +22,43 @@
             <!-- header-upper -->
 
             <!-- header-lower -->
-            <div class="header-upper">
-                <div class="auto-container">
-                    <div class="upper-inner">
-                         <figure class="logo-box"><a href="index.html"><img src="assets/images/logo.webp" alt=""></a></figure>
-                        <div class="menu-area">
-                            <!--Mobile Navigation Toggler-->
-                            <div class="mobile-nav-toggler">
-                                <i class="icon-bar"></i>
-                                <i class="icon-bar"></i>
-                                <i class="icon-bar"></i>
-                            </div>
-                            <nav class="main-menu navbar-expand-md navbar-light clearfix">
-                                <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
-                                    <ul class="navigation clearfix">
-                                        <li class="current "><a href="<?php echo base_url(); ?>">Home</a></li>
-                                        <li ><a href="<?php echo base_url('#product'); ?>">Products</a></li> 
-                                        <li ><a href="<?php echo base_url('#offers'); ?>">Offers</a></li> 
-                                        <li ><a href="<?php echo base_url('#about'); ?>">About Us</a></li> 
-                                        <li ><a href="<?php echo base_url('#services'); ?>">Our Services</a></li>
-                                        <li ><a href="<?php echo base_url('#events'); ?>">Events</a></li>    
-                                        <li ><a href="<?php echo base_url('#contact'); ?>">Contact Us</a></li> 
-                                    </ul>
-                                </div>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
+          <div class="header-upper">
+    <div class="auto-container">
+        <div class="upper-inner mobile-header-flex">
+
+            <!-- LOGO -->
+            <figure class="logo-box">
+                <a href="index.html">
+                    <img src="assets/images/logo.webp" alt="">
+                </a>
+            </figure>
+
+            <!-- MOBILE HAMBURGER -->
+            <div class="mobile-nav-toggler d-none">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
             </div>
+
+            <!-- MENU -->
+            <div class="menu-area">
+                <nav class="main-menu navbar-expand-md navbar-light clearfix">
+                    <div class="navbar-collapse">
+                        <ul class="navigation clearfix">
+                            <li class="current"><a href="index.html">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#">Offers</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+        </div>
+    </div>
+</div>
 
             <!--sticky Header-->
             <div class="sticky-header">

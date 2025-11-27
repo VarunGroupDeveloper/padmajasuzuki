@@ -831,9 +831,9 @@
 
 .mobile-menu .nav-logo{
   position:relative;
-  padding:50px 25px;
+  padding:30px 25px;
   text-align:left;  
-  padding-bottom: 100px;
+  padding-bottom: 30px;
 }
 
 .mobile-menu-visible{
@@ -1053,7 +1053,7 @@ div#mCSB_1_container{
 
 .mobile-menu .contact-info {
   position: relative;
-  padding: 120px 30px 20px 30px;
+  padding: 70px 25px 20px 25px;
 }
 
 .mobile-menu .contact-info h4 {
@@ -1618,14 +1618,15 @@ div#mCSB_1_container{
 }
 
 @media only screen and (max-width: 767px){
-  .header-upper .upper-inner{
+  /* .header-upper .upper-inner{
     display: block;
-  }
+  } */
 
   .header-upper .upper-inner .logo-box{
     display: block;
     text-align: center;
-    margin-bottom: 20px;
+    width: 33vh;
+    /* margin-bottom: 20px; */
   }
 
   .header-upper .search-area{
@@ -1781,6 +1782,26 @@ div#mCSB_1_container{
     padding-right: 235px;
   }
 
+}
+@media (max-width: 768px) {
+    .mobile-nav-toggler {
+        display: block !important;
+        cursor: pointer;
+        z-index: 9999;
+    }
+
+    /* hide desktop menu */
+    .navbar-collapse,
+    .main-menu .navbar-collapse {
+        display: none !important;
+    }
+}
+.icon-bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px 0;
+    background: #000;
 }
 
 
