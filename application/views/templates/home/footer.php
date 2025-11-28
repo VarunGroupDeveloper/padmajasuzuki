@@ -5,7 +5,7 @@
                     <div class="row clearfix">
                         <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                             <div class="footer-widget logo-widget" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700">
-                                <figure class="footer-logo"><a href="index.html"><img src="assets/images/logo.webp" alt=""></a></figure>
+                                <figure class="footer-logo"><a href="<?php echo base_url(); ?>"><img src="assets/images/logo.webp" alt=""></a></figure>
                                 <p>Stay inform about upcoming events, webinars, and exciting happenings.</p>
                                 <div class="form-inner">
                                     <form method="post" action="contact.html">
