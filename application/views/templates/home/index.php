@@ -1,43 +1,22 @@
-     <style>
 
-@media (max-width: 768px) {
-
-    .banner-carousel .slide-item:nth-child(1) .bg-layer {
-        background-image: url('assets/images/banner/mobile.webp') !important;
-    }
-
-    .banner-carousel .slide-item:nth-child(2) .bg-layer {
-        background-image: url('assets/images/banner/mobile.webp') !important;
-    }
-
-    .banner-carousel .slide-item:nth-child(3) .bg-layer {
-        background-image: url('assets/images/banner/mobile.webp') !important;
-    }
-
-    /* Adjust banner height for mobile */
-    .banner-carousel .slide-item {
-        height: 70vh !important;
-    }
-}
-     </style>
      <!-- banner-section -->
        <section class="banner-section p_relative pb_80">
-    <div class="banner-carousel owl-theme owl-carousel owl-nav-none dots-style-one">
+            <div class="banner-carousel owl-theme owl-carousel owl-nav-none dots-style-one">
 
-        <div class="slide-item">
-            <div class="bg-layer" style="background-image:url('assets/images/banner/suzuki.webp');"></div>
-        </div>
+                <div class="slide-item">
+                    <div class="bg-layer" style="background-image:url('assets/images/banner/suzuki.webp');"></div>
+                </div>
 
-        <div class="slide-item">
-            <div class="bg-layer" style="background-image:url('assets/images/banner/suzuki2.webp');"></div>
-        </div>
+                <div class="slide-item">
+                    <div class="bg-layer" style="background-image:url('assets/images/banner/suzuki2.webp');"></div>
+                </div>
 
-        <div class="slide-item">
-            <div class="bg-layer" style="background-image:url('assets/images/banner/suzuki3.webp');"></div>
-        </div>
+                <div class="slide-item">
+                    <div class="bg-layer" style="background-image:url('assets/images/banner/suzuki3.webp');"></div>
+                </div>
 
-    </div>
-</section>
+            </div>
+        </section>
         <!-- banner-section end -->
 
         <section class="search-section">
