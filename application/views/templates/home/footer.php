@@ -76,8 +76,8 @@
                                 </div>
                                 <div class="widget-content">                                    
                                     <ul class="social-links">
-                                        <li><a href="https://www.youtube.com/@PadmajaSuzukiOfficial"><i class="icon-21"></i></a></li>
-                                        <li><a href="https://in.linkedin.com/company/padmaja-suzuki"><i class="icon-19"></i></a></li>
+                                        <li><a href="https://www.youtube.com/@PadmajaSuzukiOfficial"><i class="fab fa-youtube"></i></a></li>
+                                        <li><a href="https://in.linkedin.com/company/padmaja-suzuki"><i class="fab fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
