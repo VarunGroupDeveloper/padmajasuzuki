@@ -1870,24 +1870,6 @@ button.ltr {
     pointer-events: auto !important;
 }
 
-@media (max-width: 769px) {
-
-    .banner-carousel .slide-item:nth-child(1) .bg-layer {
-        background-image: url('../images/banner/mobile1.webp') !important;
-    }
-
-    .banner-carousel .slide-item:nth-child(2) .bg-layer {
-        background-image: url('../images/banner/mobile.webp') !important;
-    }
-
-    .banner-carousel .slide-item:nth-child(3) .bg-layer {
-        background-image: url('../images/banner/mobile2.webp') !important;
-    }
-
-    .banner-carousel .slide-item {
-        height: 70vh !important;
-    }
-}
 
 
 

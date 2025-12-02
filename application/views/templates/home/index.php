@@ -3,17 +3,38 @@
        <section class="banner-section p_relative pb_80">
             <div class="banner-carousel owl-theme owl-carousel owl-nav-none dots-style-one">
 
-                <div class="slide-item">
-                    <div class="bg-layer" style="background-image:url('assets/images/banner/suzuki.webp');"></div>
-                </div>
+            <div class="slide-item">
+                <div class="bg-layer">
+                    <picture>
+                        <!-- Mobile Image -->
+                        <source media="(max-width: 769px)" srcset="assets/images/banner/mobile1.webp">
 
-                <div class="slide-item">
-                    <div class="bg-layer" style="background-image:url('assets/images/banner/suzuki2.webp');"></div>
+                        <!-- Desktop Image -->
+                        <img src="assets/images/banner/suzuki.webp" alt="" style="width:100%; height:100%; object-fit:cover;">
+                    </picture>
                 </div>
+            </div>
 
-                <div class="slide-item">
-                    <div class="bg-layer" style="background-image:url('assets/images/banner/suzuki3.webp');"></div>
+
+            <div class="slide-item">
+                <div class="bg-layer">
+                    <picture>
+                        <source media="(max-width: 769px)" srcset="assets/images/banner/mobile.webp">
+                        <img src="assets/images/banner/suzuki2.webp" alt="" style="width:100%; height:100%; object-fit:cover;">
+                    </picture>
                 </div>
+            </div>
+
+
+            <div class="slide-item">
+                <div class="bg-layer">
+                    <picture>
+                        <source media="(max-width: 769px)" srcset="assets/images/banner/mobile2.webp">
+                        <img src="assets/images/banner/suzuki3.webp" alt="" style="width:100%; height:100%; object-fit:cover;">
+                    </picture>
+                </div>
+            </div>
+
 
             </div>
         </section>
@@ -736,6 +757,8 @@
                                     </div>
                                 </div>
                             </form>
+                            <p class="test-success" style="color: green; display:none;"></p>
+                            <p class="test-error" style="color: red; display:none;"></p>
                         </div>
                     </div>
 

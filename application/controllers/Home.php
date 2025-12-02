@@ -10,7 +10,6 @@ class Home extends CI_Controller
         $this->load->library('form_validation', 'email');
         $this->load->helper('url');
     }
-
     public function index() 
     {
 
@@ -35,7 +34,6 @@ class Home extends CI_Controller
         $data['page'] = 'templates/home/index';
         $this->load->view('templates/home/main', $data);
     }
-
     public function get_districts()
     {
         $state_id = $this->input->post('state_id');
@@ -57,7 +55,6 @@ class Home extends CI_Controller
             }
         }
     }
-
     public function get_locations()
     {
         $district_id = $this->input->post('district_id');
@@ -84,7 +81,30 @@ class Home extends CI_Controller
 
         echo $options;
     }
+    private function send_smtp_mail($to, $subject, $message)
+    {
+        $config = array(
+            'protocol'  => 'smtp',
+            'smtp_host' => 'smtp.hostinger.com',
+            'smtp_port' => 587,
+            'smtp_user' => 'it.vsp@varungroup.com',
+            'smtp_pass' => 'cyber@oam123',
+            'mailtype'  => 'html',
+            'charset'   => 'utf-8',
+            'newline'   => "\r\n",
+            'smtp_crypto' => 'tls'
+        );
 
+        $this->load->library('email', $config);
+        $this->email->initialize($config);
+
+        $this->email->from('noreply@padmajasuzuki.com', 'Padmaja Suzuki');
+        $this->email->to($to);
+        $this->email->subject($subject);
+        $this->email->message($message);
+
+        return $this->email->send();
+    }
     public function submit_test_ride()
     {
         header('Content-Type: application/json');
@@ -114,10 +134,10 @@ class Home extends CI_Controller
 
         $headers = "From: noreply@suzuki.com";
 
-        if (mail($to, $subject, $message, $headers)) {
+        if ($this->send_smtp_mail($to, $subject, $message)) {
             echo json_encode(['status' => 'success', 'message' => 'Your test ride request has been submitted!']);
         } else {
-            echo json_encode(['status' => 'error', 'message' => 'Unable to send email. Please try again.']);
+            echo json_encode(['status' => 'error', 'message' => 'Unable to send email. SMTP failed.']);
         }
     }
     public function submit_book_service()
@@ -148,10 +168,10 @@ class Home extends CI_Controller
 
         $headers = "From: noreply@suzuki.com";
 
-        if (mail($to, $subject, $message, $headers)) {
-            echo json_encode(['status' => 'success', 'message' => 'Your service booking has been submitted!']);
+        if ($this->send_smtp_mail($to, $subject, $message)) {
+            echo json_encode(['status' => 'success', 'message' => 'Your test ride request has been submitted!']);
         } else {
-            echo json_encode(['status' => 'error', 'message' => 'Unable to send email. Please try again.']);
+            echo json_encode(['status' => 'error', 'message' => 'Unable to send email. SMTP failed.']);
         }
     }
     public function contact_form()
@@ -177,7 +197,7 @@ class Home extends CI_Controller
 
 
 
-        $to = "youremail@suzuki.com";  // CHANGE THIS
+        $to = "php.developer@varungroup.com";  // CHANGE THIS
         $subject = "Contact Details";
 
         $message = "
@@ -196,7 +216,5 @@ class Home extends CI_Controller
             echo json_encode(['status' => 'error', 'message' => 'Unable to send email. Please try again.']);
         }
     }
-
-
 
 }
