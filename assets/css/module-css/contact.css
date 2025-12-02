@@ -69,12 +69,17 @@ ease;
   margin-bottom: 9px;
 }
 
-.info-block-one .inner-box p a{
-  color: var(--text-color);
+.info-block-one .inner-box p a {
+    color: #333;
+    font-weight: 500;
+    word-break: break-all;
 }
 
 .info-block-one .inner-box p a:hover{
 
+}
+.info-block-one .inner-box {
+    height: 100%;
 }
 
 .google-map-section{

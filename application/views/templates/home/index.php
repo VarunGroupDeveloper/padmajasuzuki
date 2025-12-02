@@ -617,19 +617,19 @@
                     <div class="col-lg-3 col-md-6 col-sm-12 single-column">
                         <div class="single-item">
                             <div class="icon-box"><i class="icon-15"></i></div>
-                            <h5>Help and access is our mission</h5>
+                            <h5>Reliable Service and Support is Our Mission</h5>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12 single-column">
                         <div class="single-item">
                             <div class="icon-box"><i class="icon-16"></i></div>
-                            <h5>100% quality Car Accessories</h5>
+                            <h5>100% Genuine Two-Wheeler Accessories</h5>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12 single-column">
                         <div class="single-item">
                             <div class="icon-box"><i class="icon-17"></i></div>
-                            <h5>24/7 Support for Clients</h5>
+                            <h5>24/7 Assistance for Our Valued Customers</h5>
                         </div>
                     </div>
                 </div>
@@ -653,10 +653,10 @@
                                 <div class="icon-box"><i class="icon-47"></i></div>
                                 <h4>Visakhapatnam</h4>
                                 <p>
-                                    D.NO. 88/9, BLOCK-D, SRINAGAR, NH-5, OLD GAJUWAKA , WARD-59, PINCODE-530026.
+                                    D.NO. 88/9, BLOCK-D, SRINAGAR, NH-5, OLD GAJUWAKA , WARD-59, Viskhapatnam, Andhra Pradesh PINCODE-530026.
 
                                 </p>
-                                <p><strong>Email: </strong>support@varunbajaj.com</p>
+                                <p ><strong>Email : </strong> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=gmvizag@padmajasuzuki.com" target="_blank">  gmvizag@padmajasuzuki.com</a></p>
                                 <p><strong>General Manager : </strong>+91 9885297788</p>
                                 <p><strong>Branch Manager : </strong>+91 8886653183</p>
                             </div>
@@ -673,7 +673,7 @@
                                     D.NO. 40, Prabhu Nilayam, 1-11, MG Rd, Sidhartha Nagar, Labbipet, Vijayawada, Andhra Pradesh 520010
 
                                 </p>
-                                <p><strong>Email: </strong>sales.mgrd@padmajasuzuki.com</p>
+                                <p ><strong>Email : </strong> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sales.mgrd@padmajasuzuki.com" target="_blank">sales.mgrd@padmajasuzuki.com</a></p>
                                 <p><strong>General Manager : </strong>+91 9052329555</p>
                                 <p><strong>Branch Manager : </strong>+91 7386169333</p>
                             </div>
@@ -690,7 +690,7 @@
                                     A, 1-10-178, 2, Varun Towers-II, Prakash Nagar,  Begumpet, Hyderabad, Telangana 500016
 
                                 </p>
-                                <p><strong>Email: </strong>support@varunbajaj.com</p>
+                                <p ><strong>Email : </strong> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hyderabad.padmaja.ceo@suzukidealers.in" target="_blank">hyderabad.padmaja.ceo@suzukidealers.in</a></p>
                                  <p><strong>General Manager : </strong>+91 6300939949</p>
                                 <p><strong>Branch Manager : </strong>+91 9035609333</p>
                             </div>
