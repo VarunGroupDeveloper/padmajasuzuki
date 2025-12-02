@@ -81,30 +81,7 @@ class Home extends CI_Controller
 
         echo $options;
     }
-    private function send_smtp_mail($to, $subject, $message)
-    {
-        $config = array(
-            'protocol'  => 'smtp',
-            'smtp_host' => 'smtp.hostinger.com',
-            'smtp_port' => 587,
-            'smtp_user' => 'it.vsp@varungroup.com',
-            'smtp_pass' => 'cyber@oam123',
-            'mailtype'  => 'html',
-            'charset'   => 'utf-8',
-            'newline'   => "\r\n",
-            'smtp_crypto' => 'tls'
-        );
 
-        $this->load->library('email', $config);
-        $this->email->initialize($config);
-
-        $this->email->from('noreply@padmajasuzuki.com', 'Padmaja Suzuki');
-        $this->email->to($to);
-        $this->email->subject($subject);
-        $this->email->message($message);
-
-        return $this->email->send();
-    }
     public function submit_test_ride()
     {
         header('Content-Type: application/json');

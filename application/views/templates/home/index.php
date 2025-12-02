@@ -431,7 +431,7 @@
                                 <h2>About Padmaja Suzuki</h2>
                                 <p>Founded in 2007, Padmaja Suzuki is an authorized Suzuki Motorcycle dealer and the leading destination for premium Suzuki two-wheelers in Vijayawada, Andhra Pradesh. Under the esteemed leadership of Managing Director V Varun Dev, Chairman V Prabhu Kishore, and Executive Director T Vinod Kumar, we proudly offer a wide range of Suzuki motorcycles and scooters, focusing on performance, reliability, and style. Our dedication to personalised service ensures that every customer enjoys a smooth and seamless experience, from browsing our inventory to receiving reliable after-sales support.</p>
                                 <p>
-                                At Padmaja Suzuki, customer satisfaction is at the core of everything we do. Beyond providing high-quality vehicles, we are committed to offering comprehensive post-purchase services, including expert guidance and ongoing maintenance. With a passionate team and strong leadership, we aim to build long-lasting relationships, ensuring that each customer’s Suzuki journey is both smooth and fulfilling.</p>
+                                At Padmaja Suzuki, customer satisfaction is at the core of everything we do. Beyond providing high-quality vehicles, we are committed to offering comprehensive post-purchase services, including expert guidance and ongoing maintenance. With a passionate team and strong leadership, we aim to build long-lasting relationships, ensuring that each customer’s Suzuki journey is both smooth and fulfilling.</p>
                             </div>
                             <div class="inner-box">
                                 <div class="row clearfix">
@@ -765,6 +765,5 @@
                     
 
                 </div>
-
             </div>
         </section>
