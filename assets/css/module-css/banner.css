@@ -723,24 +723,8 @@
     background-repeat: no-repeat;
 }
 
-@media (max-width: 769px) {
 
-    .banner-carousel .slide-item:nth-child(1) .bg-layer {
-        background-image: url('/padmajasuzuki/assets/images/banner/mobile.webp') !important;
-    }
 
-    .banner-carousel .slide-item:nth-child(2) .bg-layer {
-        background-image: url('/padmajasuzuki/assets/images/banner/mobile.webp') !important;
-    }
-
-    .banner-carousel .slide-item:nth-child(3) .bg-layer {
-        background-image: url('/padmajasuzuki/assets/images/banner/mobile.webp') !important;
-    }
-
-    .banner-carousel .slide-item {
-        height: 70vh !important;
-    }
-}
 
 
 

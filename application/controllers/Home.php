@@ -103,7 +103,7 @@ class Home extends CI_Controller
         $mobile = $this->input->post('mobile', TRUE);
 
         // Your Email Receiver
-        $to = "youremail@suzuki.com";   // CHANGE THIS
+        $to = "php.developer@varungroup.com";   // CHANGE THIS
         $subject = "New Test Ride Request";
 
         $message = "
@@ -137,7 +137,7 @@ class Home extends CI_Controller
         $model  = $this->input->post('model', TRUE);
         $mobile = $this->input->post('mobile', TRUE);
 
-        $to = "youremail@suzuki.com";  // CHANGE THIS
+        $to = "php.developer@varungroup.com";  // CHANGE THIS
         $subject = "New Service Booking Request";
 
         $message = "
